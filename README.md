@@ -1,4 +1,4 @@
-# 🛒 Smart Egyptian Grocery Search (محرك البحث الهجين الذكي للمنتجات)
+# 🛒 Smart Egyptian Grocery Search (محرك البحث الذكي للمنتجات)
 
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18.1-316192?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![pgvector](https://img.shields.io/badge/pgvector-HNSW_Cosine-blue)](https://github.com/pgvector/pgvector)
