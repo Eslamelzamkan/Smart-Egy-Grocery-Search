@@ -170,5 +170,4 @@ python benchmarks/run_recall_mrr_latency_evaluation.py
 
 ---
 
-## 👤 Author
-- **Eslam Elzamkan** - [GitHub](https://github.com/Eslamelzamkan)
+
