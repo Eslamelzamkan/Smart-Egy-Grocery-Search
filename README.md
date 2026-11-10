@@ -31,26 +31,7 @@ Instead of spinning up a separate, heavy search server and dealing with data-syn
 
 ---
 
-## Results (Tested on 100 Real Searches)
 
-| What Customer Typed | What They Meant | Old SQL Search | This Engine |
-| :--- | :--- | :---: | :--- |
-| **`قوطة`** | Fresh Tomatoes | ❌ 0 results | ✅ **طماطم طازجة فرز أول** |
-| **`gehina laban`** | Juhayna Milk | ❌ 0 results | ✅ **حليب جهينة كامل الدسم 1 لتر** |
-| **`سحور رمضان`** | Suhoor Staples | ❌ 0 results | ✅ **فول مدمس، جبنة فيتا، بيض، زبادي** |
-| **`شيبسي كباب`** | Kebab Chips | ❌ 0 results | ✅ **شيبسي بنكهة الكباب المتبل** |
-| **`مقادير كيكة`** | Baking Supplies | ❌ 0 results | ✅ **دقيق، سكر، بيكنج بودر، فانيليا** |
-
-### Benchmark Numbers
-
-| Metric | Old Search (`SQL ILIKE`) | New Hybrid Search |
-| :--- | :---: | :---: |
-| **Dead-End Searches (0 Results)** | 67% | **0%** |
-| **Found in Top 5 (Recall@5)** | 33% | **86%** |
-| **Ranking Quality (MRR@5)** | 0.29 | **0.78** |
-| **Speed (p95 on standard CPU)** | ~2 ms | **~132 ms** |
-
----
 
 ## How the Ranking Formula Works
 
